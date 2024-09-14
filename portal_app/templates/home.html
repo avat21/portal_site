@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portal - Home</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    </head>
+</html>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="navbar-top">
+                <div class="logo">
+                    <img src="https://beforeigosolutions.com/wp-content/uploads/2021/12/dummy-profile-pic-300x300-1.png">
+                    <h2>HRMS</h2>
+                </div>
+                <div class="menu">
+                    <i class="bi bi-arrow-left-square-fill left-arrow"></i>
+                    <i class="bi bi-arrow-right-square-fill right-arrow"></i>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#"><i class="bi bi-speedometer"></i><span class="text">Dashboard</span></a></li>
+                    <li><a href="#"><i class="bi bi-people"></i><span class="text">All Employees</span></a></li>
+                    <li><a href="#"><i class="bi bi-person-workspace"></i><span class="text">All Departments</span></a></li>
+                    <li><a href="#"><i class="bi bi-calendar"></i><span class="text">Attendance</span></a></li>
+                    <li><a href="#"><i class="bi bi-currency-dollar"></i><span class="text">Payroll</span></a></li>
+                    <li><a href="#"><i class="bi bi-bag"></i><span class="text">Jobs</span></a></li>
+                    <li><a href="#"><i class="bi bi-person-badge"></i><span class="text">Candidates</span></a></li>
+                    <li><a href="#"><i class="bi bi-file-text"></i><span class="text">Leaves</span></a></li>
+                </ul>
+            </nav>
+            <div class="account">
+                <div class="light-theme theme">
+                    <div><i class="bi bi-brightness-high-fill"></i><span class="text">Light</span></div>
+                </div>
+                <div class="dark-theme theme">
+                    <div><i class="bi bi-moon-fill"></i><span class="text">Dark</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <h1>HRMS Portal</h1>
+        </div>
+    </div>
+    <script src="{% static 'js/home.js' %}"></script>
+</body>
